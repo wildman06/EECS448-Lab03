@@ -1,0 +1,66 @@
+h1, h2
+{
+color: white;
+text-align: center;
+background-color: black;
+margin-right: 600px;
+margin-left: 600px;
+font-family: 'Times New Roman', Times, serif;
+
+}
+
+body
+{
+background-image: url("http://www.chrisbober.com/wp-content/gallery/hunting-land-in-nebraska-broken-bow/lg-south-loup-river-hunting-land-in-nebraska-1.jpg");
+background-size: cover;
+background-repeat: no-repeat;
+background-attachment: fixed;
+font-family: 'Times New Roman', Times, serif;
+
+}
+
+img
+{
+display: block;
+margin-left: auto;
+margin-right: auto;
+height: auto; 
+width: auto; 
+max-width: 225px; 
+max-height: 250px;
+padding: 1px;
+border: 1px solid black;
+}
+
+a
+{
+    text-align: center;
+color: white;
+
+}
+
+a:hover
+{
+background-color:rgb(113, 187, 209);
+}
+
+p
+{
+text-align: center;
+color: white;
+margin-right: 250px;
+margin-left: 250px;
+background-color: black;
+}
+
+p.websites
+{
+margin-right: 600px;
+margin-left: 600px;
+}
+
+p.youtube
+{
+margin-right: 450px;
+margin-left: 450px;
+}

@@ -1,0 +1,53 @@
+<html>
+
+<head>
+    <script type="text/javascript"
+            src="slideshow.js">
+    </script>
+    <link rel="stylesheet" type="text/css" href="slideshow.css">
+    <title> Exercise 2: Slideshow</title>
+</head>
+
+<body>
+    <h1>Exercise 2: Slideshow</h1>
+    <br>
+    <h2>Colorado Mountains</h2>
+
+    <div class="slideshow-container">
+        <div class="Slides">
+            <img src="Lab3_slideshow_pictures/1.jpg" style="width:100%">
+        </div>
+    
+        <div class="Slides">
+            <img src="Lab3_slideshow_pictures/2.jpg" style="width:100%">
+        </div>
+    
+        <div class="Slides">
+            <img src="Lab3_slideshow_pictures/3.jpg" style="width:100%">
+        </div>
+
+        <div class="Slides">
+            <img src="Lab3_slideshow_pictures/4.jpg" style="width:100%">
+        </div>
+
+        <div class="Slides">
+            <img src="Lab3_slideshow_pictures/5.jpg" style="width:100%">
+        </div>
+    
+    </div>
+    <br>
+    <div>
+    <button type="button" onclick="plusSlides(-1)">prev</button>
+    <button type="button" onclick="plusSlides(1)">next</button>
+    </div>
+    <br>
+    <div style="text-align:center">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+        <span class="dot" onclick="currentSlide(4)"></span>
+        <span class="dot" onclick="currentSlide(5)"></span>
+    </div>
+</body>
+
+</html>
